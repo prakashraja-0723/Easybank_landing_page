@@ -12,10 +12,10 @@ const App = () => {
           <Head />
         </header>
         <main
-          className={`w-full min-h-screen bg-c_very_light_gray overflow-hidden`}
+          className={`w-full min-h-screen overflow-x-hidden lg:max-w-[90rem] lg:min-w-[65rem] lg:m-auto`}
         >
           <section
-            className={`flex items-center justify-between lg:min-w-[65rem] lg:m-auto lg:max-w-[90rem]  xl:h-[736px] xl:relative `}
+            className={`flex items-center justify-between   xl:h-[736px] xl:relative `}
           >
             <Hero />
           </section>
