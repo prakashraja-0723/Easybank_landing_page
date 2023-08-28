@@ -2,7 +2,6 @@ import Head from "./Components/Head/Head";
 import Hero from "./Components/Hero/Hero";
 import Features from "./Components/Features/Features.jsx";
 import Articles from "./Components/Articles/Articles.jsx";
-import Button from "./Components/UI_Components/Button.jsx";
 import Foot from "./Components/Foot/Foot.jsx";
 
 const App = () => {
