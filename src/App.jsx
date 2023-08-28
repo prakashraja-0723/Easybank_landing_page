@@ -15,7 +15,7 @@ const App = () => {
           className={`w-full min-h-screen overflow-x-hidden lg:max-w-[90rem] lg:min-w-[65rem] lg:m-auto`}
         >
           <section
-            className={`flex items-center justify-between   xl:h-[736px] xl:relative `}
+            className={`flex items-center justify-between xl:h-[736px] xl:relative `}
           >
             <Hero />
           </section>
