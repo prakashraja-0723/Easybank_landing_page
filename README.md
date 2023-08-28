@@ -9,11 +9,7 @@ This is a solution to the [Easybank landing page challenge on Frontend Mentor](h
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -29,12 +25,12 @@ Users should be able to:
 ###### Screen Size: 1440px
 ![](/src/assets/output/output_Desktop%5B1440px%5D.png)
 ###### Screen Size: 375px
-![](/src/assets/output/output_Mobile%5B375px%5D.png)
+![](/src/assets/output/Output_Mobile%5B375px%5D.png)
 
 ### Links
 
 - Solution : [Easybank landing page Solution](https://github.com/prakashraja-0723/Easybank_landing_page)
-- Live Site : [Easybank](https://your-live-site-url.com)
+- Live Site : [Easybank](https://easybank-prakashraja-0723.vercel.app/)
 
 ## My process
 
