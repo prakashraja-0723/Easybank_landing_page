@@ -25,7 +25,7 @@ const App = () => {
             <Features />
           </section>
           <section
-            className={` lg:min-w-[65rem] lg:m-auto lg:max-w-[75rem] pt-16 lg:px-[1rem]`} role={`article`}
+            className={` lg:min-w-[65rem] lg:m-auto lg:max-w-[75rem] pt-16 lg:px-[1rem]`} role={`section`}
           >
             <Articles />
           </section>
