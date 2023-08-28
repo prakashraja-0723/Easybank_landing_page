@@ -8,7 +8,7 @@ const App = () => {
   return (
     <>
       <section className={`w-screen min-h-screen bg-c_very_light_gray `}>
-        <header className={`w-full h-16 bg-white lg:h-20 fixed z-[999] `} role={`head`}>
+        <header className={`w-full h-16 bg-white lg:h-20 fixed z-[999] `} role={`navigation`}>
           <Head />
         </header>
         <main
@@ -16,11 +16,11 @@ const App = () => {
          role={`main`}>
           <section
             className={`flex items-center justify-between xl:h-[736px] xl:relative `}
-           role={`hero`}>
+           role={`banner`}>
             <Hero />
           </section>
           <section
-            className={` lg:min-w-[65rem] lg:m-auto lg:max-w-[90rem] xl:h-[672px] bg-c_light_grayish_blue pt-16 xl:pt-28 lg:px-[8.5rem]`} role={`features`}
+            className={` lg:min-w-[65rem] lg:m-auto lg:max-w-[90rem] xl:h-[672px] bg-c_light_grayish_blue pt-16 xl:pt-28 lg:px-[8.5rem]`}
           >
             <Features />
           </section>
@@ -30,7 +30,7 @@ const App = () => {
             <Articles />
           </section>
         </main>
-        <footer className={`w-full bg-c_dark_blue h-[530px] xl:h-fit `} role={`footer`}>
+        <footer className={`w-full bg-c_dark_blue h-[530px] xl:h-fit `} role={`contentinfo`}>
         <Foot/>
         </footer>
       </section>
