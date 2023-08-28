@@ -8,9 +8,9 @@ const ArticleCard = (props) => {
         <p className={`text-[10px] text-c_grayish_blue text-left w-full `}>
           By {props.ArticleInfo.user_name}
         </p>
-        <h4 className={`text-base text-c_dark_blue leading-tight mt-1`}>
+        <h1 className={`text-base text-c_dark_blue leading-tight mt-1`}>
           {props.ArticleInfo.article_title}
-        </h4>
+        </h1>
         <p className={`text-[13px] text-c_grayish_blue xl:text-xs xl:pt-1`}>
           {props.ArticleInfo.article_content}
         </p>
