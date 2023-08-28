@@ -3,22 +3,22 @@ import FeatureList from "../UI_Components/FeatureList.jsx";
 const Features = () => {
   const features_list = [
     {
-      img: "../../src/assets/images/icon-api.svg",
+      img: "/images/icon-api.svg",
       title: "Online Banking",
       content: `Our modern web and mobile applications allow you to keep track of your finances wherever you are in the world.`,
     },
 		{
-			img: "../../src/assets/images/icon-budgeting.svg",
+			img: "/images/icon-budgeting.svg",
 			title: "Simple Budgeting",
 			content: `See exactly where your money goes each month. Receive notifications when you're close to your hitting limits.`,
 		},
 		{
-			img: "../../src/assets/images/icon-onboarding.svg",
+			img: "/images/icon-onboarding.svg",
 			title: "Fast Onboarding",
 			content: `We don't do branches. Open your account in minutes online and start taking control of your finances right away.`,
 		},
 		{
-			img: "../../src/assets/images/icon-api.svg",
+			img: "/images/icon-api.svg",
 			title: "Open API",
 			content: `Manage your savings, investments, pension, and much more from one account. Tracking your money has never been easier.`,
 		},

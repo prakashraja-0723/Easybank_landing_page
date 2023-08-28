@@ -1,4 +1,4 @@
-import Mobile_Mockup from "../../assets/images/image-mockups.png";
+import Mobile_Mockup from "../../../public/images/image-mockups.png";
 import Button from "../UI_Components/Button.jsx";
 const Hero = () => {
   return (
