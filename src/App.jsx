@@ -8,15 +8,14 @@ const App = () => {
   return (
     <>
       <section className={`w-screen min-h-screen bg-c_very_light_gray `}>
-        <header className={`w-full h-16 bg-white lg:h-20 fixed z-[999] `} role={`navigation`}>
+        <header className={`w-full h-16 bg-white lg:h-20 fixed z-[999] `} role={`banner`}>
           <Head />
         </header>
         <main
           className={`w-full min-h-screen overflow-x-hidden lg:max-w-[90rem] lg:min-w-[65rem] lg:m-auto`}
          role={`main`}>
           <section
-            className={`flex items-center justify-between xl:h-[736px] xl:relative `}
-           role={`banner`}>
+            className={`flex items-center justify-between xl:h-[736px] xl:relative `}>
             <Hero />
           </section>
           <section
@@ -25,7 +24,7 @@ const App = () => {
             <Features />
           </section>
           <section
-            className={` lg:min-w-[65rem] lg:m-auto lg:max-w-[75rem] pt-16 lg:px-[1rem]`} role={`section`}
+            className={` lg:min-w-[65rem] lg:m-auto lg:max-w-[75rem] pt-16 lg:px-[1rem]`}
           >
             <Articles />
           </section>
