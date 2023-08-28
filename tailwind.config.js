@@ -10,9 +10,9 @@ export default {
           'linear-gradient(to left, hsl(192, 70%, 70%), hsl(136, 65%, 70%))',
         c_gradient_bw:
           'linear-gradient(to bottom, hsla(233, 26%, 24%,100%)0%, hsla(0, 0%, 98%,20%)80%)',
-        hero_desktop_bg: "url('/src/assets/images/bg-intro-desktop.svg')",
-        hero_mobile_bg: "url('/src/assets/images/bg-intro-mobile.svg')",
-        hero_img:"url('/src/assets/images/image-mockups.png')"
+        hero_desktop_bg: "url('./assets/images/bg-intro-desktop.svg')",
+        hero_mobile_bg: "url('./assets/images/bg-intro-mobile.svg')",
+        hero_img:"url('./assets/images/image-mockups.png')"
       },
 
       colors: {

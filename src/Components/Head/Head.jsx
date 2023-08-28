@@ -1,7 +1,7 @@
 import Button from "../UI_Components/Button";
-import Logo from "/src/assets/images/logo.svg";
-import Icon_Menu from "/src/assets/images/icon-hamburger.svg";
-import Icon_Close from "/src/assets/images/icon-close.svg";
+import Logo from "../../assets/images/logo.svg";
+import Icon_Menu from "../../assets/images/icon-hamburger.svg";
+import Icon_Close from "../../assets/images/icon-close.svg";
 import Menu from "../UI_Components/Menu";
 import { useState } from "react";
 

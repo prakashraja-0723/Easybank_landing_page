@@ -3,7 +3,7 @@ import FeatureList from "../UI_Components/FeatureList.jsx";
 const Features = () => {
   const features_list = [
     {
-      img: "/src/assets/images/icon-online.svg",
+      img: "../../src/assets/images/icon-api.svg",
       title: "Online Banking",
       content: `Our modern web and mobile applications allow you to keep track of your finances wherever you are in the world.`,
     },
