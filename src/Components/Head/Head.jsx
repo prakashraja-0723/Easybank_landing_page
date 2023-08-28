@@ -25,7 +25,7 @@ const Head = () => {
         className={`flex items-center justify-between px-5 py-5 lg:min-w-[65rem] lg:m-auto lg:max-w-[75rem]`}
       >
         <div>
-          <img src={Logo} alt="easybank logo" role='logo'/>
+          <img src={Logo} alt="easybank logo" aria-roledescription='logo'/>
         </div>
         <div
           className={`${menuToggleClose} absolute left-1/2 -translate-x-1/2  top-16 pt-7 bg-c_gradient_bw w-full h-screen lg:block lg:relative lg:left-0 lg:bg-none lg:h-full lg:top-0 lg:w-fit lg:pt-0`}
