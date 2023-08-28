@@ -30,7 +30,7 @@ const App = () => {
             <Articles />
           </section>
         </main>
-        <footer className={`w-full bg-c_dark_blue h-[530px] xl:h-fit `} aria-roledescription={`footer`}>
+        <footer className={`w-full bg-c_dark_blue h-[530px] xl:h-fit `} aria-roledescription={`my footer`}>
         <Foot/>
         </footer>
       </section>
